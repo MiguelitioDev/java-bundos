@@ -1,5 +1,5 @@
 # Banco de dados (Rafaele)
 
-Scripts SQL do Supabase. Tarefas e modelo: [docs/rafaele-banco.md](../docs/rafaele-banco.md).
+O que fazer: [Rafaele/README.md](../Rafaele/README.md).
 
-Ordem de execução: `01-tabelas.sql`, `02-politicas.sql`, `03-dados.sql`.
+Ordem de execução dos scripts: `01-tabelas.sql`, `02-politicas.sql`, `03-dados.sql`.

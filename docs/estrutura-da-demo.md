@@ -22,10 +22,11 @@ Levantado dos textos da demo mobile e dos slides. A versão web usa isto como gu
 
 | Demo mobile | Versão web |
 |---|---|
-| Sem login | Mapa sem login; login só para favoritos |
+| Sem login | Mapa sem login; conta para favoritos e chamar o carrinho |
 | Favoritos guardados no aparelho | Favoritos no banco |
 | Mapa offline e mapa real | Só o mapa real |
-| Dados embutidos no app | Dados no Supabase, servidos pela API |
+| Veículos simulados | Simulados só na demonstração; com a API, posição do celular do motorista |
+| Sem chamada nem avaliação | Chamar o carrinho, painel do motorista e avaliação |
 
 ## Paradas da demo
 
@@ -39,6 +40,6 @@ Nomes: Parada Unifor; frente do Shopping Aldeota, Shopping Benfica, Iguatemi Bos
 
 Nomes: Blocos A, B, C, D e M; Biblioteca; Reitoria; Convivência.
 
-Linhas internas citadas: "Circular dos blocos" e "Reitoria ↔ Bloco M". As linhas externas, as coordenadas e os horários precisam ser conferidos na demo ou definidos pela equipe.
+Linhas recuperadas da demo: D01 Aldeota ↔ Unifor, D02 Messejana ↔ Unifor, D03 Parangaba ↔ Unifor, C01 Circular dos blocos e C02 Reitoria ↔ Bloco M. Coordenadas e trajetos estão em `frontend/src/dados/rede.json`. Os horários foram criados para a versão web.
 
 > Todas as paradas, linhas e horários são fictícios. Os lugares citados são só referência geográfica e não têm vínculo com o projeto.
