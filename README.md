@@ -33,7 +33,7 @@ Abra o endereço que aparecer (normalmente `http://localhost:5173`). Sem API con
 
 | Camada | Tecnologia | Hospedagem sugerida |
 |---|---|---|
-| Web | React, TypeScript, Vite, Tailwind CSS, React Router, Leaflet (OpenStreetMap) | Vercel |
+| Web | React, JavaScript, Vite, Tailwind CSS, React Router, Leaflet (OpenStreetMap) | Vercel |
 | API | Node.js, Express, `@supabase/supabase-js` | Render |
 | Banco | Supabase (PostgreSQL, Auth, RLS) | Supabase |
 

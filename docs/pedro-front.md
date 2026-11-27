@@ -4,7 +4,7 @@ Pasta: `frontend/`. Branches: `front/...`. Dados: [contrato da API](contrato-api
 
 ## Feito
 
-- [x] Projeto Vite, React, TypeScript e Tailwind
+- [x] Projeto Vite, React (JavaScript) e Tailwind
 - [x] Início, mapa, linhas e horários, favoritos, cadastro e login, sobre, privacidade
 - [x] Chamar o carrinho, painel do motorista e avaliação
 - [x] Localização opcional e parada mais próxima
@@ -13,7 +13,7 @@ Pasta: `frontend/`. Branches: `front/...`. Dados: [contrato da API](contrato-api
 
 ## Falta
 
-- [ ] Revisar as telas no navegador: celular, tablet e computador
+- [ ] Revisar as telas no navegador: celular, tablet e computador (só início, mapa, linha e chamar foram abertas no computador)
 - [ ] Polimento visual e revisão de acessibilidade
 - [ ] Hospedar (sugestão: Vercel, com a pasta raiz `frontend`) e enviar a URL ao Ricardo para o CORS
 - [ ] Ligar à API publicada e testar o fluxo completo

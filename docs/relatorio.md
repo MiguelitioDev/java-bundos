@@ -18,6 +18,7 @@ O segundo item veio de uma conversa e foi transcrito automaticamente. **Vale con
 ## 3. Padrão visto na disciplina
 
 - Back-end: Node.js com Express e Supabase, separado em `config/`, `controlador/`, `rotas/` e `middleware/`; login com token JWT; RLS no banco.
+- Linguagem: JavaScript no front e no back, como nos códigos da disciplina.
 - Front-end: React com Vite e Tailwind, separado em componentes e serviços, com `fetch`, estados de carregamento e erro. A ementa pede componentes, entidades, serviços, navegação entre telas e validação de formulários.
 - Datas no ambiente virtual: apresentação final em **04/12**. O plano de ensino cita avaliação e apresentação em **02/12** para a turma 83. **Confirmar a data.**
 
@@ -36,7 +37,7 @@ celular do motorista ─ envia a posição ─┘
 | Banco | Rafaele | A fazer ([guia](../Rafaele/README.md)) |
 | API | Ricardo | A fazer ([guia](../Ricardo/README.md)) |
 
-Verificado no front: compilação e 10 testes automatizados dos serviços (simulação, horários, conta, favoritos, chamados, posição do motorista e validação). **Ainda não verificado:** as telas no navegador, celular e tablet, acessibilidade e integração com a API.
+Verificado no front: compilação e 10 testes automatizados dos serviços (simulação, horários, conta, favoritos, chamados, posição do motorista e validação). No navegador do computador, início, mapa interno, detalhe de linha e chamar o carrinho (sem login) abriram sem erros no console. **Ainda não verificado:** os fluxos com login, as demais telas, celular e tablet, acessibilidade e integração com a API.
 
 Telas: início, mapa (externo e interno), linhas e horários, chamar o carrinho, painel do motorista, avaliação, favoritos, cadastro e login, sobre e privacidade.
 

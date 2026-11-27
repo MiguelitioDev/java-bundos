@@ -11,8 +11,7 @@ npm run build    # versão de publicação, em dist/
 |---|---|
 | `telas/` | Uma por rota |
 | `componentes/` | Peças reutilizadas |
-| `entidades/` | Tipos de dados do contrato |
-| `services/` | API (`http.ts`), demonstração (`demonstracao.ts`), simulação e validação |
+| `services/` | API (`http.js`), demonstração (`demonstracao.js`), simulação e validação |
 | `hooks/`, `contextos/` | Estado, atualização periódica, sessão |
 | `dados/` | Paradas, linhas e trajetos da demonstração |
 

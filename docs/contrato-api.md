@@ -1,6 +1,6 @@
 # Contrato da API
 
-O front já está implementado com estes formatos (veja `frontend/src/services/http.ts` e `frontend/src/entidades/tipos.ts`). Mudou algo? Avise os três e atualize este arquivo.
+O front já está implementado com estes formatos (veja `frontend/src/services/http.js`). Mudou algo? Avise os três e atualize este arquivo.
 
 - JSON, com nomes em camelCase.
 - Erros: status adequado e `{ "error": "mensagem em português" }`.

@@ -19,7 +19,7 @@ backend/
                  favoritoRoutes.js, corridaRoutes.js, avaliacaoRoutes.js
 ```
 
-- Node.js em CommonJS, Express, `@supabase/supabase-js`, `dotenv`, `cors`
+- JavaScript (sem TypeScript): Node.js em CommonJS, Express, `@supabase/supabase-js`, `dotenv`, `cors`
 - `.env` com `PORTA`, `URL`, `API` e `FRONT_URL` (modelo em `backend/.env.example`)
 - **Middleware**, como na "Atividade Prática Backend": lê `Authorization: Bearer <token>`; sem token responde 401 em JSON; valida com `supabase.auth.getUser(token)`; inválido responde 401; válido grava `req.user` e `req.token` e chama `next()`
 - Status: 200, 201 ao criar, 204 sem corpo, 400, 401, 403, 404, 409; erros como `{ "error": "mensagem" }` em português
@@ -46,7 +46,7 @@ backend/
 - `proximaParada`: a parada da linha mais próxima da posição
 - `etaMin`: só quando em movimento: distância ÷ velocidade (carrinho 2,5 m/s, ônibus 7 m/s), em minutos, no mínimo 1
 
-A mesma conta já está em [`demonstracao.ts`](../frontend/src/services/demonstracao.ts), função `veiculoComMotorista`, e a distância em [`geo.ts`](../frontend/src/services/geo.ts).
+A mesma conta já está em [`demonstracao.js`](../frontend/src/services/demonstracao.js), função `veiculoComMotorista`, e a distância em [`geo.js`](../frontend/src/services/geo.js).
 
 ## Atenção ao reaproveitar o `todo-back`
 
